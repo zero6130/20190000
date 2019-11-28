@@ -1,0 +1,41 @@
+body{
+	magin:25px 10px;
+	font-family: 'Open Sans', '微軟正黑體', sans-serif;
+	}
+
+header{
+	margin-bottom: 10px;
+}
+
+#headerpost{
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.post{
+	float: left;
+    width: 216px;
+    margin-right: 32px;
+    margin-bottom: 25px;
+}
+.post:last-child{
+	margin-right: 0
+}
+
+.post+.post+.post+.post{
+	margin-right: 0;
+}
+
+
+#site {
+    float: left;
+}
+
+#site h1 {
+    margin: 0;
+}
+
+#site img {
+    vertical-align: bottom;
+    width: 332px;
+}
